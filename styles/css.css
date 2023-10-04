@@ -1,0 +1,265 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Navbar Index */
+
+.navbar__nav__--color {
+    background-color: #009999   !important;
+}
+
+.nav__div--container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__div__ul--li{ 
+    align-items: center !important;
+}
+
+.nav__div_li--a {
+    color: white !important;
+    font-size: 18px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.nav__div_li--a:hover {
+    background-color: black;
+    border-radius: 6px;
+}
+
+.nav__div--ul {
+    align-items: center;
+    text-align: center;
+}
+
+.nav__div_a--img {
+    width: 60px;
+}
+
+/* header index */
+
+.header__div__--h5 {
+    font-size: 33px;
+}
+
+.header__div--p {
+    width: 51%;
+    font-size: 24px;
+    text-align: justify;
+}
+
+/* main index  */
+
+.main__cards--complete {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.article__div--accordion {
+    margin-bottom: 21px;
+}
+
+.article__container--cards {
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: center;
+}
+
+/* index footer */
+
+.footer__footer {
+    width: 100%;
+    height: 90px;
+    padding: 0%;
+    bottom: 0%;
+    position: fixed;
+    background-color: #009999;
+    text-align: center;
+}
+
+.footer__div--img {
+    width: 30px;
+    margin-top: 15px;
+    padding-left: 6px;
+}
+
+.footer__div__--p {
+    margin-top: 6px;
+    color: white;
+}
+
+/* Gallery */
+
+.main__gallery--img {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 120px;
+}
+
+.main__img--images {
+    width: 300px;
+    height: 270px;
+    margin-top: 21px;
+}
+
+/* page contact */
+
+.main__contact--form {
+    margin-top: 30px;
+    margin-bottom: 120px;
+    border: solid 1px rgb(22, 78, 0);
+}
+
+.main__div__buttom--form {
+    margin-bottom: 15px;
+}
+
+.main__contact__div__logo--llama {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main__contact__div--logo {
+    width: 90px;
+}
+
+/* page about */
+
+.main__about__--carousel {
+    width: 81%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main__about__img-carousel {
+    width: 600px;
+    height: 450px;
+}
+
+.about__div__tittle--h1 {
+    text-align: center;
+}
+
+.article__about--container {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.article__about__div--images { 
+     width: 150px;
+}
+
+.about__article__div--text {
+    padding: 12px;
+    text-align: center;
+}
+
+/* page videos */
+
+.main__videos {
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.main__videos__div--iframe {
+    width: 420px;
+    height: 300px;
+}
+
+.main__videos__general--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main__videos__div__iframe--videos {
+    margin: 3px;
+}
+
+/* responsive  */
+
+@media (max-width: 930px){
+
+    .header__div__--h5 {
+        font-size: 30px;
+    }
+
+    .header__div--p  {
+        font-size: 15px;
+        width: 51%;
+    }
+
+    .main__about__--carousel {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .main__about__img-carousel {
+        width: 510px;
+        height: 330px;
+    }
+    
+}
+
+@media (max-width: 822px) {
+    .article__about--container {
+        display: block;
+    }
+
+    .main__videos__general--container {
+        display: block;
+    }
+}
+
+@media (max-width: 660px){
+    .header__div--p  {
+        font-size: 12px;
+    }
+
+    .article__about--container {
+        display: flexbox;
+        flex-direction: row;
+        margin-bottom: 120px;
+    }
+
+    .main__videos__div--iframe {
+        width: 372px;
+    }
+}
+
+@media (max-width: 450px){
+    .header__div--p  {
+        font-size: 12px;
+        width: 81%;
+    }
+
+    .main__about__--carousel {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .main__about__img-carousel {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main__videos__div--iframe {
+        width: 300px;
+    }
+}
+
+@media (max-width: 450px){
+    .header__div--p  {
+        font-size: 9px;
+        width: 90%;
+    }
+}
